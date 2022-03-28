@@ -1,0 +1,111 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.page-bg {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('bg2.jpeg');
+  background-size: cover;
+}
+
+.login-div {
+  width: 70%;
+  box-shadow: 0px 0px 300px #2B83F8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 5px 20px 5px;
+  border-radius: 5px;
+}
+
+header {
+  margin: 25px 0;
+  color: white;
+}
+
+.email-password {
+  position: relative;
+  margin: 5px 0;
+  width: 90%;
+}
+
+.email-password input {
+  padding: 5px 5px 5px 30px;
+  width: 100%;
+}
+
+.login-email .email-logo {
+  position: absolute;
+  left: 5px;
+  top: 6px;
+}
+
+.login-pass .pass-logo {
+  position: absolute;
+  left: 5px;
+  top: 6px;
+}
+
+.forget-pass {
+  width: 90%;
+  text-align: left;
+  color: white;
+}
+
+#login {
+  width: 90%;
+  padding: 10px 0;
+  margin: 10px 0;
+  font-weight: 700;
+  background: #4DB0F6;
+  color: white;
+  border: none;
+  border-radius: 2px;
+}
+
+.alt-login {
+  width: 90%;
+  text-align: center;
+  color: white;
+  margin: 20px 0;
+}
+
+.alt-login-btns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 90%;
+  grid-gap: 2px;
+  margin: 10px 0;
+}
+
+#facebook, #instagram{
+  padding: 10px 0;
+  border: none;
+  border-radius: 2px;
+  color: white;
+}
+
+#facebook {
+  background: #1077F7;
+}
+
+#instagram {
+  background: #D20EAC;
+}
+
+.goto-signup {
+  color: white;
+  margin: 5px 0;
+}
+
+.goto-signup a {
+  text-decoration: none;
+  color: #05A1E8;
+}
