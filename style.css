@@ -10,13 +10,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url('bg2.jpeg');
+  background: url('bg1.jpg');
   background-size: cover;
 }
 
 .login-div {
   width: 70%;
-  box-shadow: 0px 0px 300px #2B83F8;
+  box-shadow: 0px 0px 10px #26283AF5;
   display: flex;
   flex-direction: column;
   justify-content: center;
